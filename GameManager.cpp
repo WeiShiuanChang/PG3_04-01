@@ -1,4 +1,5 @@
 #include "GameManager.h"
+#include <Novice.h>
 
 GameManager::GameManager()
 {
@@ -6,7 +7,7 @@ GameManager::GameManager()
 	sceneArr_[STAGE] = std::make_unique<StageScene>();
 	sceneArr_[ENDING] = std::make_unique<EndingScene>();
 
-	sceneNo_ = TITLE;
+	currentSceneNo_ = TITLE;
 }
 
 GameManager::~GameManager(){}
@@ -27,7 +28,9 @@ int GameManager::Run()
 		sceneArr_[currentSceneNo_]->Draw();
 
 		Novice::EndFrame();
-		if (inputManager_->GetPreKeys()[DIK_ESCAPE] == 0 && inputManager_->GetKeys()[DIK_ESCAPE] != 0) {
+
+		// ESCキーが押されたらループを抜ける
+		if (Novice::CheckHitKey(DIK_ESCAPE)) {
 			break;
 		}
 	}

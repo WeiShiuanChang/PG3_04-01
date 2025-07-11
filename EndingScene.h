@@ -1,8 +1,9 @@
 #pragma once
+#include "IScene.h"
 
 class EndingScene :public IScene {
 public:
-	void init() override;
-	void update() override;
-	void draw() override;
+	void Init() override;
+	void Update() override;
+	void Draw() override;
 };
