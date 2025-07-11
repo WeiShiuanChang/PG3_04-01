@@ -1,7 +1,7 @@
 #include "TitleScene.h"
 
 void TitleScene::Init() {
-    // ‰Šú‰»™|—
+    // 
 }
 
 void TitleScene::Update()

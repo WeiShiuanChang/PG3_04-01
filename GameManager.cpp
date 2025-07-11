@@ -28,11 +28,6 @@ int GameManager::Run()
 		sceneArr_[currentSceneNo_]->Draw();
 
 		Novice::EndFrame();
-
-		// ESCキーが押されたらループを抜ける
-		if (Novice::CheckHitKey(DIK_ESCAPE)) {
-			break;
-		}
 	}
 	return 0;
 }

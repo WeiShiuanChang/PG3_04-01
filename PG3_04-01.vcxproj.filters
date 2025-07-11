@@ -14,6 +14,9 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="KamataEngine\Scene">
+      <UniqueIdentifier>{19ac121b-63da-40a8-9392-6d30021356fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -44,14 +47,14 @@
     <ClCompile Include="GameManager.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>KamataEngine</Filter>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
     <ClCompile Include="StageScene.cpp">
-      <Filter>KamataEngine</Filter>
+      <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="EndingScene.cpp">
-      <Filter>KamataEngine</Filter>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -126,29 +129,20 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>KamataEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>KamataEngine</Filter>
-    </ClInclude>
     <ClInclude Include="IScene.h">
       <Filter>KamataEngine</Filter>
     </ClInclude>
     <ClInclude Include="GameManager.h">
       <Filter>KamataEngine</Filter>
     </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>KamataEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>KamataEngine</Filter>
+    <ClInclude Include="EndingScene.h">
+      <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
     <ClInclude Include="StageScene.h">
-      <Filter>KamataEngine</Filter>
+      <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="EndingScene.h">
-      <Filter>KamataEngine</Filter>
+    <ClInclude Include="TitleScene.h">
+      <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
