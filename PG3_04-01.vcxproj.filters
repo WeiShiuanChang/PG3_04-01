@@ -147,9 +147,6 @@
     <ClInclude Include="EndingScene.h">
       <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="StageScene.h">
-      <Filter>KamataEngine\Scene</Filter>
-    </ClInclude>
     <ClInclude Include="TitleScene.h">
       <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
@@ -161,6 +158,9 @@
     </ClInclude>
     <ClInclude Include="InputHandler.h">
       <Filter>KamataEngine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

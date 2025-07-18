@@ -7,7 +7,7 @@ GameManager::GameManager()
 	sceneArr_[STAGE] = std::make_unique<StageScene>();
 	sceneArr_[ENDING] = std::make_unique<EndingScene>();
 
-	currentSceneNo_ = TITLE;
+	currentSceneNo_ = STAGE;
 }
 
 GameManager::~GameManager(){}

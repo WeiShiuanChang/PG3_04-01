@@ -158,8 +158,8 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="StageScene.h" />
     <ClInclude Include="IScene.h" />
+    <ClInclude Include="StageScene.h" />
     <ClInclude Include="TitleScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -9,19 +9,15 @@ public:
 	StageScene();
 
 	void Init() override {
-
 		// 入力ハンドラーの生成
 		inputHandler_ = new InputHandler();
-		
 		// コマンドを割り当てる
 		inputHandler_->AssignMoveRightCommand2PressKeyD();
 		inputHandler_->AssignMoveLeftCommand2PressKeyA();
-		
-		// プレイヤーの生成と初期化
+
 		player_ = new Player();
 		player_->Init();
 	}
-
 	void Update() override;
 	void Draw() override;
 
@@ -30,4 +26,3 @@ private:
 	ICommand* iCommand_ = nullptr;
 	Player* player_;
 };
-
