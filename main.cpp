@@ -1,11 +1,6 @@
 #include <Novice.h>
 #include "GameManager.h"
 
-struct Vector2 {
-	float x;
-	float y;
-};
-
 const char kWindowTitle[] = "GC2B_06_チョウ_イ_セン_PG3";
 
 // Windowsアプリでのエントリーポイント(main関数)
