@@ -9,6 +9,7 @@ public:
 	StageScene();
 
 	void Init() override {
+
 		// “ü—Íƒnƒ“ƒhƒ‰[‚Ì¶¬
 		inputHandler_ = new InputHandler();
 		
@@ -20,6 +21,7 @@ public:
 		player_ = new Player();
 		player_->Init();
 	}
+
 	void Update() override;
 	void Draw() override;
 
