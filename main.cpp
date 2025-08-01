@@ -1,7 +1,7 @@
 #include <Novice.h>
 #include "GameManager.h"
 
-const char kWindowTitle[] = "GC2B_06_チョウ_イ_セン_PG3";
+const char kWindowTitle[] = "GC2B_06_チョウ_イ_セン_PG3_評価課題";
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {

@@ -41,12 +41,6 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
-    <ClCompile Include="IScene.cpp">
-      <Filter>KamataEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>KamataEngine</Filter>
-    </ClCompile>
     <ClCompile Include="EndingScene.cpp">
       <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
@@ -56,14 +50,26 @@
     <ClCompile Include="TitleScene.cpp">
       <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>KamataEngine</Filter>
+    <ClCompile Include="IScene.cpp">
+      <Filter>KamataEngine\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Command.cpp">
-      <Filter>KamataEngine</Filter>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>KamataEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>KamataEngine\Source</Filter>
     </ClCompile>
     <ClCompile Include="InputHandler.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
       <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>KamataEngine\Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -138,29 +144,38 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="IScene.h">
-      <Filter>KamataEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>KamataEngine</Filter>
-    </ClInclude>
     <ClInclude Include="EndingScene.h">
       <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
     <ClInclude Include="TitleScene.h">
       <Filter>KamataEngine\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Command.h">
-      <Filter>KamataEngine</Filter>
+    <ClInclude Include="StageScene.h">
+      <Filter>KamataEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>KamataEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>KamataEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>KamataEngine\Source</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>KamataEngine</Filter>
+      <Filter>KamataEngine\Source</Filter>
     </ClInclude>
     <ClInclude Include="InputHandler.h">
       <Filter>KamataEngine\Source</Filter>
     </ClInclude>
-    <ClInclude Include="StageScene.h">
-      <Filter>KamataEngine\Scene</Filter>
+    <ClInclude Include="Command.h">
+      <Filter>KamataEngine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>KamataEngine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>KamataEngine\Source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
